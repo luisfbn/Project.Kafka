@@ -1,0 +1,13 @@
+﻿@host = http://localhost:5286
+
+### POST order to Kafka
+POST {{host}}/orders
+Content-Type: application/json
+
+{
+  "product": "Settings",
+  "quantity": 12
+}
+
+### GET all orders from DB
+GET {{host}}/orders

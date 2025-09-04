@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Project.Kafka.Common\Project.Kafka.Common.csproj" />
+		<ProjectReference Include="..\Project.Kafka.Core\Project.Kafka.Core.csproj" />
+		<ProjectReference Include="..\Project.Kafka.Infrastructure\Project.Kafka.Infrastructure.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="..\Database\orders.db">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<Link>orders.db</Link>
+		</None>
+	</ItemGroup>
+
+</Project>

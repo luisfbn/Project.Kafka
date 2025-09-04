@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>dotnet-Project.Kafka.Worker-4baa16e0-0ccb-412f-bf17-92aa98957ad1</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Project.Kafka.Core\Project.Kafka.Core.csproj" />
+		<ProjectReference Include="..\Project.Kafka.Infrastructure\Project.Kafka.Infrastructure.csproj" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<None Update="..\Database\orders.db">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<Link>orders.db</Link>
+		</None>
+	</ItemGroup>
+	
+</Project>

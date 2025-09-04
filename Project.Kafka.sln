@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Kafka.Api", "Project.Kafka.Api\Project.Kafka.Api.csproj", "{75E00DB4-F4E0-41C8-B3C8-BAEFACBAC6DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Kafka.Core", "Project.Kafka.Core\Project.Kafka.Core.csproj", "{82FDB949-A662-4B13-BF90-648815A6E036}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Kafka.Infrastructure", "Project.Kafka.Infrastructure\Project.Kafka.Infrastructure.csproj", "{D5840016-D245-442B-9A1A-D033A14B3937}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Kafka.Worker", "Project.Kafka.Worker\Project.Kafka.Worker.csproj", "{0FF6EF13-1BF6-4676-A6C7-F33B3BC03B4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{66706C54-28F7-4F3D-ACBA-0B94C2893620}"
+	ProjectSection(SolutionItems) = preProject
+		Database\orders.db = Database\orders.db
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Kafka.Common", "Project.Kafka.Common\Project.Kafka.Common.csproj", "{230DF82F-2DC8-4D02-B165-622248C63D3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75E00DB4-F4E0-41C8-B3C8-BAEFACBAC6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E00DB4-F4E0-41C8-B3C8-BAEFACBAC6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E00DB4-F4E0-41C8-B3C8-BAEFACBAC6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E00DB4-F4E0-41C8-B3C8-BAEFACBAC6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82FDB949-A662-4B13-BF90-648815A6E036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FDB949-A662-4B13-BF90-648815A6E036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FDB949-A662-4B13-BF90-648815A6E036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FDB949-A662-4B13-BF90-648815A6E036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5840016-D245-442B-9A1A-D033A14B3937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5840016-D245-442B-9A1A-D033A14B3937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5840016-D245-442B-9A1A-D033A14B3937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5840016-D245-442B-9A1A-D033A14B3937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF6EF13-1BF6-4676-A6C7-F33B3BC03B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF6EF13-1BF6-4676-A6C7-F33B3BC03B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF6EF13-1BF6-4676-A6C7-F33B3BC03B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF6EF13-1BF6-4676-A6C7-F33B3BC03B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230DF82F-2DC8-4D02-B165-622248C63D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230DF82F-2DC8-4D02-B165-622248C63D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230DF82F-2DC8-4D02-B165-622248C63D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230DF82F-2DC8-4D02-B165-622248C63D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C349B47C-C458-4185-9C29-817BA025A06C}
+	EndGlobalSection
+EndGlobal
